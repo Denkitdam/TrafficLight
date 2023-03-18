@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var greenLightLabel: UIView!
     @IBOutlet var switchButton: UIButton!
     
-    private var tapCount = 0
+    private var tapCounter = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,8 +28,8 @@ class ViewController: UIViewController {
 
     @IBAction func buttonWasTapped() {
         switchButton.setTitle("Next", for: .normal)
-        tapCount += 1
-        switch tapCount {
+        tapCounter += 1
+        switch tapCounter {
         case 1:
             redLightLabel.alpha = 10
             yellowLightLabel.alpha = 0
@@ -37,13 +37,13 @@ class ViewController: UIViewController {
         case 2:
             redLightLabel.alpha = 0
             yellowLightLabel.alpha = 10
-            greenLightLabel.alpha = 0
         case 3:
-            redLightLabel.alpha = 0
             yellowLightLabel.alpha = 0
             greenLightLabel.alpha = 10
+            tapCounter = 0
         default:
-            tapCount = 0
+            switchButton.setTitle("Error", for: .normal)
+            
         }
         
     }
