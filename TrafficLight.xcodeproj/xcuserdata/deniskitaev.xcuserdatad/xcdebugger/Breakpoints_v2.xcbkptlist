@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DC675C0B-3C23-4004-83BE-298AE20D08FA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09C8C4BB-08DE-45B8-A4F0-3C6CF30ED5E7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TrafficLight/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "09C8C4BB-08DE-45B8-A4F0-3C6CF30ED5E7 - 2d003dc9139a581c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.redLightLabel.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deniskitaev/Documents/my%20first%20app/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "09C8C4BB-08DE-45B8-A4F0-3C6CF30ED5E7 - f0cafeedd257000"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.redLightLabel.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deniskitaev/Documents/my%20first%20app/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "09C8C4BB-08DE-45B8-A4F0-3C6CF30ED5E7 - fcd9001801b28611"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.redLightLabel.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deniskitaev/Documents/my%20first%20app/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "09C8C4BB-08DE-45B8-A4F0-3C6CF30ED5E7 - 1d8f3a524267c6b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.redLightLabel.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deniskitaev/Documents/my%20first%20app/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "09C8C4BB-08DE-45B8-A4F0-3C6CF30ED5E7 - 1560b29c17d0450a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; TrafficLight.ViewController"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deniskitaev/Documents/my%20first%20app/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "09C8C4BB-08DE-45B8-A4F0-3C6CF30ED5E7 - fd1ee2d60b63303c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TrafficLight.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;TrafficLight.ViewController&gt;"
+                  moduleName = "TrafficLight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/deniskitaev/Documents/my%20first%20app/TrafficLight/TrafficLight/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
