@@ -23,7 +23,7 @@ final class ViewController: UIViewController {
         redLightLabel.layer.cornerRadius = redLightLabel.frame.width / 2
         yellowLightLabel.layer.cornerRadius = yellowLightLabel.frame.width / 2
         greenLightLabel.layer.cornerRadius = greenLightLabel.frame.width / 2
-        switchButton.layer.cornerRadius = 2
+        switchButton.layer.cornerRadius = 20
     }
 
     @IBAction func buttonWasTapped() {
