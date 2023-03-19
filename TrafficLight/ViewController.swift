@@ -20,12 +20,10 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        redLightLabel.layer.cornerRadius = 50
-        yellowLightLabel.layer.cornerRadius = 50
-        greenLightLabel.layer.cornerRadius = 50
-        switchButton.layer.cornerRadius = 20
-        
-        // Do any additional setup after loading the view.
+        redLightLabel.layer.cornerRadius = redLightLabel.frame.width / 2
+        yellowLightLabel.layer.cornerRadius = yellowLightLabel.frame.width / 2
+        greenLightLabel.layer.cornerRadius = greenLightLabel.frame.width / 2
+        switchButton.layer.cornerRadius = 2
     }
 
     @IBAction func buttonWasTapped() {
@@ -39,12 +37,10 @@ final class ViewController: UIViewController {
         case 2:
             redLightLabel.alpha = lightOff
             yellowLightLabel.alpha = lightOn
-        case 3:
+        default:
             yellowLightLabel.alpha = lightOff
             greenLightLabel.alpha = lightOn
             tapCounter = 0
-        default:
-            switchButton.setTitle("Error", for: .normal)
             
         }
         
