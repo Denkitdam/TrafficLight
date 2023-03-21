@@ -20,14 +20,17 @@ final class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        switchButton.layer.cornerRadius = 20
+        
+       
+    }
+
+    override func viewWillLayoutSubviews() {
         redLightLabel.layer.cornerRadius = redLightLabel.frame.width / 2
         yellowLightLabel.layer.cornerRadius = yellowLightLabel.frame.width / 2
         greenLightLabel.layer.cornerRadius = greenLightLabel.frame.width / 2
-        switchButton.layer.cornerRadius = 20
-        
-        // Do any additional setup after loading the view.
     }
-
+    
     @IBAction func buttonWasTapped() {
         if switchButton.currentTitle == "Start" {
             switchButton.setTitle("Next", for: .normal)
